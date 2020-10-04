@@ -1,21 +1,11 @@
 import React from 'react';
 import classes from './App.module.css';
-import { Button, Container, Grid } from '@material-ui/core';
+import { Button, Container } from '@material-ui/core';
 import { connect } from "react-redux";
 import { actions } from './redux/actions'
 
 
 function App(props) {
-  // const [count, setCount] = useState(0);
-
-  // const handleSub = () => {
-  //   setCount((prevState) => (prevState - 1))
-  // }
-
-  // const handleAdd = () => {
-  //   setCount((prevState) => (prevState + 1))
-  // }
-
   return (
     <Container maxWidth="xs" className={classes.container}>
       <div className={classes.count}>
@@ -30,9 +20,10 @@ function App(props) {
   )
 
 }
+
 const mapStateToProps = (state) => {
   return {
-    count: state
+    count: state.count
   };
 }
 

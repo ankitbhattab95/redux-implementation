@@ -1,12 +1,16 @@
-import {actions} from '../actions'
-export const counter = (state = 0, action) => {
-  switch(action.type) {
-     case actions.INCREMENT:
-       return state = state + 1;
-   
-     case actions.DECREMENT :
-       return state = state -1;
-     default:
-       return state;
-   }
+import { actions } from '../actions'
+
+let initialState = { count: 0 }
+
+export const counter = (state = initialState, action) => {
+  switch (action.type) {
+    case actions.INCREMENT:
+      return state = { ...initialState, count: state.count + 1 };
+      
+      case actions.DECREMENT:
+        return state = { ...initialState, count: state.count - 1 };
+
+    default:
+      return state;
+  }
 };
