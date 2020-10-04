@@ -1,9 +1,10 @@
+import {actions} from '../actions'
 export const counter = (state = 0, action) => {
   switch(action.type) {
-     case 'INCREMENT':
+     case actions.INCREMENT:
        return state = state + 1;
    
-     case 'DECREMENT':
+     case actions.DECREMENT :
        return state = state -1;
      default:
        return state;

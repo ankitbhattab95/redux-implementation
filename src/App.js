@@ -1,7 +1,8 @@
-import React   from 'react';
+import React from 'react';
 import classes from './App.module.css';
 import { Button, Container, Grid } from '@material-ui/core';
 import { connect } from "react-redux";
+import { actions } from './redux/actions'
 
 
 function App(props) {
@@ -37,9 +38,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    increment: () => dispatch({ type: 'INCREMENT' }),
-    decrement: () => dispatch({ type: 'DECREMENT' })
+    increment: () => dispatch({ type: actions.INCREMENT }),
+    decrement: () => dispatch({ type: actions.DECREMENT })
   };
 
 }
-export default connect(mapStateToProps,mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
