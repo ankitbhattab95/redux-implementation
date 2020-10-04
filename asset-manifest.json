@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ankitbhattab95/redux-implementation/static/css/main.01b3a4a7.chunk.css",
+    "main.js": "/ankitbhattab95/redux-implementation/static/js/main.a941010d.chunk.js",
+    "main.js.map": "/ankitbhattab95/redux-implementation/static/js/main.a941010d.chunk.js.map",
+    "runtime-main.js": "/ankitbhattab95/redux-implementation/static/js/runtime-main.edbf87a2.js",
+    "runtime-main.js.map": "/ankitbhattab95/redux-implementation/static/js/runtime-main.edbf87a2.js.map",
+    "static/js/2.dd18a9bd.chunk.js": "/ankitbhattab95/redux-implementation/static/js/2.dd18a9bd.chunk.js",
+    "static/js/2.dd18a9bd.chunk.js.map": "/ankitbhattab95/redux-implementation/static/js/2.dd18a9bd.chunk.js.map",
+    "index.html": "/ankitbhattab95/redux-implementation/index.html",
+    "precache-manifest.fc48c5ecbf9fb76301aa2b637a7ef149.js": "/ankitbhattab95/redux-implementation/precache-manifest.fc48c5ecbf9fb76301aa2b637a7ef149.js",
+    "service-worker.js": "/ankitbhattab95/redux-implementation/service-worker.js",
+    "static/css/main.01b3a4a7.chunk.css.map": "/ankitbhattab95/redux-implementation/static/css/main.01b3a4a7.chunk.css.map",
+    "static/js/2.dd18a9bd.chunk.js.LICENSE.txt": "/ankitbhattab95/redux-implementation/static/js/2.dd18a9bd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ankitbhattab95/redux-implementation/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edbf87a2.js",
+    "static/js/2.dd18a9bd.chunk.js",
+    "static/css/main.01b3a4a7.chunk.css",
+    "static/js/main.a941010d.chunk.js"
+  ]
+}
